@@ -4,8 +4,7 @@
   <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
 </picture>
 
-EE Grad | Risk Taker | Ever Learner<br>
-Quant Researcher & Developer | Full-Stack Developer
+EE by degree, markets by choice. Derivatives, volatility, execution — I take risk deliberately, learn whatever a problem demands, and get to a working build fast. Theory only counts once it runs on live data.
 
 ## Markets and quant
 
@@ -72,4 +71,4 @@ Currently sharpening SQL, low-level design, and data structures for the engineer
 
 ## Elsewhere
 
-Leaving GitHub from here — [Academic Hub, live](https://ums-pern-stack.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/berry07) &nbsp;·&nbsp; [Email](mailto:barindersinghdhanoa@gmail.com)
+Leaving GitHub from here — [Academic Hub, live](https://ums-pern-stack.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/berry07)
