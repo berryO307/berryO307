@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=3">
-  <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=3">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=4">
+  <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=4">
 </picture>
 
 EE by degree, markets by choice. Derivatives, volatility, execution — I take risk deliberately, learn whatever a problem demands, and get to a working build fast. Theory only counts once it runs on live data.
