@@ -4,7 +4,7 @@
   <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
 </picture>
 
-EE by degree, markets by choice. Derivatives, volatility, execution — I take risk deliberately, learn whatever a problem demands, and get to a working build fast. Theory only counts once it runs on live data.
+EE by degree, markets by choice. Derivatives, volatility, execution - I take risk deliberately, learn whatever a problem demands, and get to a working build fast. Theory only counts once it runs on live data.
 
 ## Markets and quant
 
