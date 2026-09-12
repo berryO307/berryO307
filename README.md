@@ -1,120 +1,74 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
+  <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
+</picture>
 
-# BARINDER SINGH
+Electrical engineering graduate who went into markets on purpose. I build the infrastructure that carries market data and the models that decide what to do with it, and I ship full-stack products with the same discipline.
 
-### QUANT DEVELOPER · MARKETS OBSESSIVE · FULL-STACK ENGINEER
+## Markets and quant
 
-</div>
+Every project here starts from a trading or allocation question, not from a framework I wanted to try.
 
-<div align="center">
+### C++20 Bybit market-data gateway
 
-```
-barinder@dev:~$ whoami
-berryO307
+A lock-free, low-latency market-data pipeline running against live exchange data.
 
-barinder@dev:~$ cat role.txt
-EE grad — low-latency systems & quant research by conviction,
-full-stack engineering by discipline
-
-barinder@dev:~$ cat status.txt
-B.Tech EE (Chandigarh University, 2026)
-Building HFT-adjacent infra + market models, shipping full-stack
-products, and reading markets for fun
-
-barinder@dev:~$ _
-```
-
-</div>
-
----
-
-## Focus Areas
-
-**Obsessed with** market microstructure, options (vanilla & exotic barrier), regime-switching models, portfolio construction across equities/derivatives/crypto.
-
-**Building** lock-free market-data pipelines, zero-copy IPC, sequential decision-process solvers — and shipping full production web apps end to end.
-
-**Sharpening** C++20, low-level systems design, SQL, DSA for the engineering side of the same coin.
-
----
-
-## Quant & Markets
-
-Markets aren't a side interest — they're the reason the systems work exists. Every project below is built to answer a real trading/portfolio question, not to check a resume box.
-
-### ⚡ C++20 Bybit Market-Data Gateway
-
-A lock-free, low-latency market-data pipeline running against **live** exchange data.
-
-| Capability | Implementation |
+| | |
 |---|---|
 | Queueing | Lock-free SPSC ring buffer |
 | Data path | mmap zero-copy |
 | Timing | `rdtscp` cycle-accurate instrumentation |
-| Measured latency | ~7.4µs p99 queue-transit across ~42K live samples |
-| Data source | Live Bybit BTC perpetual futures (V5 API) |
-| Analysis | Python + Plotly dashboard |
-| Threading | Thread pinning |
+| Measured latency | 7.4µs p99 queue transit across 42K live samples |
+| Feed | Bybit BTC perpetual futures, V5 API |
+| Threading | Pinned threads |
+| Analysis | Python and Plotly |
 
-Includes order book reconstruction, taken from skeleton to a documented p99 on live data over a multi-week debugging cycle.
+Includes order book reconstruction. Taken from skeleton to a documented p99 on live data over a multi-week debugging cycle: V5 migration, the SPSC buffer, the mmap writer, then the measurement layer.
 
-### 📊 Python MDP Battery-Dispatch Optimizer
+### Python MDP battery-dispatch optimizer
 
-A sequential decision-making solver for energy arbitrage under a regime-switching market — dynamic programming applied to a real allocation problem.
+Dynamic programming applied to energy arbitrage under a regime-switching market.
 
-| Capability | Implementation |
+| | |
 |---|---|
 | Method | Bellman backward induction |
 | Market model | Regime-switching |
-| Result | +96% over random baseline |
-| Experimental alpha | +31.71 vs. −64.46 (random) |
-| Docs | Whitepaper-style README + 4 companion notes (dynamics, environment, simulator, solver) |
+| Result | 96% improvement over random baseline |
+| Alpha | +31.71 against -64.46 random |
+| Documentation | Whitepaper-style README plus companion notes on dynamics, environment, simulator, and solver |
 
-### Market Research Approach
+### How I read markets
 
-Portfolio construction guided by a regime-sensitive allocation framework (Nifty P/E vs. FII flow as the decision matrix) rather than static asset weights — the same regime-aware thinking that shows up in the MDP project above, applied to my own long-horizon equity allocation across large-cap, mid-cap, and small-cap exposure.
+I allocate against a regime-sensitive framework rather than fixed weights, using Nifty P/E against FII flow as the decision matrix, over a ten-year horizon across large, mid, and small cap. It is the same instinct as the MDP work: the state you are in should change the action you take. Interests run across Indian and US equities, derivatives, and crypto, with options work covering vanilla and exotic barrier structures.
 
----
+## Engineering
 
-## Selected Builds (Full-Stack)
+### Academic Hub
 
-### Academic Hub — University Management Dashboard
+A production university management platform: departments, subjects, classes, users, and live analytics.
 
-Production PERN-stack app: Home, Departments, Subjects, Classes, and Users modules with live analytics.
-
-| Capability | Implementation |
+| | |
 |---|---|
-| Stack | PostgreSQL (Neon) · Express · React · Node |
-| UI | shadcn/ui, Refine |
-| Auth | Better Auth (Google + GitHub) |
-| Infra | Arcjet rate limiting, Cloudinary, Site24x7 RUM |
-| Deploy | Frontend on Vercel, backend on Railway |
+| Stack | PostgreSQL on Neon, Express, React, Node |
+| Interface | shadcn/ui with Refine |
+| Auth | Better Auth, Google and GitHub |
+| Infrastructure | Arcjet rate limiting, Cloudinary, Site24x7 RUM |
+| Deployment | Vercel frontend, Railway backend |
 
-[Live Demo](https://ums-pern-stack.vercel.app) · [Source](https://github.com/berryO307/pern-stack-preparation)
+[Live app](https://ums-pern-stack.vercel.app) &nbsp;·&nbsp; [Source](https://github.com/berryO307/pern-stack-preparation)
 
----
+## What I work with
 
-## Toolkit
-
-`C++20` · `Python` · `TypeScript` · `SQL` · `PostgreSQL` · `React` · `Node/Express` · `Docker` · `Git`
-
-## Skill Matrix
-
-| Domain | Skills |
+| Systems | C++20, lock-free structures, zero-copy I/O, cycle-level timing, POSIX syscalls |
 |---|---|
-| Quant / Markets | Market microstructure, MDPs, regime-switching models, options (vanilla & exotic barrier), portfolio construction |
-| Systems | Lock-free data structures, zero-copy I/O, cycle-level timing, thread pinning |
-| Full-Stack | PERN stack, REST APIs, auth, backend architecture |
-| Data | SQL (in progress), Python analysis, Plotly |
-| Tooling | Docker, sandboxed execution, DSA, low-level design |
+| Quant | Market microstructure, MDPs, regime-switching models, options |
+| Backend | Node, Express, REST APIs, authentication, PostgreSQL |
+| Frontend | React, TypeScript |
+| Tooling | Docker, Git, Linux |
 
----
+Currently sharpening SQL, low-level design, and data structures for the engineering track.
 
-<div align="center">
+## Elsewhere
 
-**Build → Break → Learn → Rebuild**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-berry07-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/berry07)
-[![GitHub](https://img.shields.io/badge/GitHub-berryO307-181717?style=flat&logo=github&logoColor=white)](https://github.com/berryO307)
-
-</div>
+[LinkedIn](https://linkedin.com/in/berry07) &nbsp;·&nbsp; [Email](mailto:barindersinghdhanoa@gmail.com)
