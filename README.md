@@ -4,7 +4,8 @@
   <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
 </picture>
 
-Electrical engineering graduate who went into markets on purpose. I build the infrastructure that carries market data and the models that decide what to do with it, and I ship full-stack products with the same discipline.
+EE Grad | Risk Taker | Ever Learner<br>
+Quant Researcher & Developer | Full-Stack Developer
 
 ## Markets and quant
 
@@ -38,9 +39,9 @@ Dynamic programming applied to energy arbitrage under a regime-switching market.
 | Alpha | +31.71 against -64.46 random |
 | Documentation | Whitepaper-style README plus companion notes on dynamics, environment, simulator, and solver |
 
-### How I read markets
+### Interests
 
-I allocate against a regime-sensitive framework rather than fixed weights, using Nifty P/E against FII flow as the decision matrix, over a ten-year horizon across large, mid, and small cap. It is the same instinct as the MDP work: the state you are in should change the action you take. Interests run across Indian and US equities, derivatives, and crypto, with options work covering vanilla and exotic barrier structures.
+Exotic Derivatives | Options | Futures | Algorithmic Trading
 
 ## Engineering
 
@@ -56,7 +57,7 @@ A production university management platform: departments, subjects, classes, use
 | Infrastructure | Arcjet rate limiting, Cloudinary, Site24x7 RUM |
 | Deployment | Vercel frontend, Railway backend |
 
-[Live app](https://ums-pern-stack.vercel.app) &nbsp;·&nbsp; [Source](https://github.com/berryO307/pern-stack-preparation)
+[Source](https://github.com/berryO307/pern-stack-preparation)
 
 ## What I work with
 
@@ -71,4 +72,4 @@ Currently sharpening SQL, low-level design, and data structures for the engineer
 
 ## Elsewhere
 
-[LinkedIn](https://linkedin.com/in/berry07) &nbsp;·&nbsp; [Email](mailto:barindersinghdhanoa@gmail.com)
+Leaving GitHub from here — [Academic Hub, live](https://ums-pern-stack.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/berry07) &nbsp;·&nbsp; [Email](mailto:barindersinghdhanoa@gmail.com)
