@@ -21,7 +21,7 @@ The microgrid result is from a seeded simulation, not a realized market return. 
 | --- | --- | --- | --- |
 | [Academic Hub](https://github.com/berryO307/pern-stack-preparation) | University management platform with role-based workflows, authentication, and live analytics. | TypeScript, React, Express, PostgreSQL on Neon | [Open application](https://ums-pern-stack.vercel.app) |
 | [LLD Practice Platform](https://github.com/berryO307/LLD-practice-platform) | Submit a design and get rubric-based feedback on responsibility clarity, SOLID, coupling, cohesion, and extensibility. | React 19, Express 5, PostgreSQL, Neon/Drizzle, Gemini | [Try the platform](https://solidly.vercel.app/) |
-| Personal Website | Custom-designed personal site; source repository remains private. | Private source | [Visit website](https://personal-webpage-two-gamma.vercel.app) |
+| Personal Website | Custom-designed personal site; source repository remains private. | Private source | [Visit website](https://www.barinder.dev/) |
 
 I have also deployed Linux code to an Oracle Cloud instance. The hosting cost was too high for that setup, so running my own server is planned work and is not live yet.
 
