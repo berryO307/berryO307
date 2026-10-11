@@ -7,9 +7,9 @@
 I work across financial markets and software: building the systems that capture and present market data, and using quantitative methods to study trading and allocation problems. I also build full-stack products, from database and API design through the interface and deployment.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg?v=3">
-  <img alt="Animated overview of Barinder's market research and software development skills" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg?v=3">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg?v=4">
+  <img alt="Animated overview of Barinder's market research and software development skills" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg?v=4">
 </picture>
 
 ## Quant & market systems
