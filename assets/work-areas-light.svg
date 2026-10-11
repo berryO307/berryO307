@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" role="img" aria-label="Animated overview of quant and market systems skills alongside software engineering skills">
+  <rect x="1" y="1" width="998" height="308" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="18" y="18" width="472" height="226" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="510" y="18" width="472" height="226" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="38" y="38" width="3" height="26" rx="1.5" fill="#1a7f37"/>
+    <text x="52" y="57" fill="#24292f" font-size="17" font-weight="700">Quant &amp; market systems</text>
+    <text x="38" y="82" fill="#57606a" font-size="12">Understand the market question and model it</text>
+    <rect x="530" y="38" width="3" height="26" rx="1.5" fill="#0969da"/>
+    <text x="544" y="57" fill="#24292f" font-size="17" font-weight="700">Software engineering</text>
+    <text x="530" y="82" fill="#57606a" font-size="12">Build the systems that make the work usable</text>
+    <g fill="#ffffff" stroke="#c8d1da">
+      <rect x="36" y="101" width="98" height="67" rx="8"/><rect x="146" y="101" width="98" height="67" rx="8"/>
+      <rect x="256" y="101" width="98" height="67" rx="8"/><rect x="366" y="101" width="98" height="67" rx="8"/>
+      <rect x="528" y="101" width="98" height="67" rx="8"/><rect x="638" y="101" width="98" height="67" rx="8"/>
+      <rect x="748" y="101" width="98" height="67" rx="8"/><rect x="858" y="101" width="98" height="67" rx="8"/>
+    </g>
+    <g fill="#24292f" font-size="12" text-anchor="middle">
+      <text x="85" y="130"><tspan x="85">Market</tspan><tspan x="85" dy="16">data</tspan></text>
+      <text x="195" y="130"><tspan x="195">Micro-</tspan><tspan x="195" dy="16">structure</tspan></text>
+      <text x="305" y="130"><tspan x="305">Models &amp;</tspan><tspan x="305" dy="16">simulation</tspan></text>
+      <text x="415" y="130"><tspan x="415">Strategy</tspan><tspan x="415" dy="16">evaluation</tspan></text>
+      <text x="577" y="130"><tspan x="577">C++20 &amp;</tspan><tspan x="577" dy="16">Python</tspan></text>
+      <text x="687" y="130"><tspan x="687">APIs &amp;</tspan><tspan x="687" dy="16">databases</tspan></text>
+      <text x="797" y="130"><tspan x="797">Web</tspan><tspan x="797" dy="16">dashboards</tspan></text>
+      <text x="907" y="130"><tspan x="907">Linux</tspan><tspan x="907" dy="16">deployment</tspan></text>
+    </g>
+    <g fill="none" stroke="#afb8c1" stroke-width="2">
+      <path d="M 134 202 H 366"/><path d="M 626 202 H 858"/>
+    </g>
+    <circle r="5" fill="#1a7f37"><animateMotion dur="4.8s" repeatCount="indefinite" path="M 134 202 H 366"/></circle>
+    <circle r="5" fill="#0969da"><animateMotion dur="4.8s" repeatCount="indefinite" path="M 626 202 H 858"/></circle>
+    <text x="500" y="277" fill="#57606a" font-size="13" text-anchor="middle">Connecting market questions to working software</text>
+    <line x1="290" y1="286" x2="710" y2="286" stroke="#d0d7de"/>
+    <circle cx="500" cy="286" r="4" fill="#1a7f37"><animate attributeName="r" values="3;6;3" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
