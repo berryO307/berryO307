@@ -1,29 +1,29 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
-  <img alt="Barinder Singh — quant development, market systems, and research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=5">
+  <img alt="Barinder Singh — quant development, market systems, research, and full-stack engineering" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=5">
 </picture>
 
-I help turn financial-market and allocation questions into working software: exchange data capture, quantitative research prototypes, and dashboards. My work spans **quant development and quantitative research**, so I can connect the data pipeline to the question the model is meant to answer.
+I work across financial markets and software: building the systems that capture and present market data, and using quantitative methods to study trading and allocation problems. I also build full-stack products, from database and API design through the interface and deployment.
 
-[Live L2 dashboard](https://l2-orderbook-gateway.vercel.app/) · [Academic Hub](https://ums-pern-stack.vercel.app) · [X](https://x.com/stillwaters_0x) · [Buy Me a Coffee](https://buymeacoffee.com/berry07)
+## Quant & market systems
 
-## Selected work
-
-| Project | Focus | Stack | Result |
+| Project | Work | Stack | Live |
 | --- | --- | --- | --- |
-| [L2 Market Data Gateway](https://github.com/berryO307/quant-portfolio/tree/main/project-2-L2-market-data-gateway) | Exchange order-book capture, measured C++ pipeline, hosted dashboard. | C++20, Next.js, Railway, Neon | **28.5 µs p99 queue transit** across 383 samples in a short native desktop capture. |
-| [Microgrid MDP](https://github.com/berryO307/quant-portfolio/tree/main/project-1-microgrid-mdp) | Battery dispatch optimization under changing market regimes and transaction costs. | Python, NumPy, Pandas | **+96.17 alpha lift** over a random policy in the documented seeded simulation. |
-| [Academic Hub](https://github.com/berryO307/pern-stack-preparation) | University management platform with role-based workflows and live analytics. | TypeScript, React, Express, PostgreSQL | [Open application](https://ums-pern-stack.vercel.app) |
+| [L2 Market Data Gateway](https://github.com/berryO307/quant-portfolio/tree/main/project-2-L2-market-data-gateway) | Hyperliquid L2 capture and order-book reconstruction; lock-free SPSC queue, mmap data path, pinned threads, per-stage `rdtscp` timing, and a jitter canary. | C++20, Railway, Neon, Next.js | [Open dashboard](https://l2-orderbook-gateway.vercel.app/) |
+| [Microgrid MDP](https://github.com/berryO307/quant-portfolio/tree/main/project-1-microgrid-mdp) | Bellman backward induction for battery dispatch across changing market regimes. **+96.17 simulated alpha lift** over a random baseline. | Python, NumPy, Pandas | — |
 
-The gateway figure is a desktop measurement, not cloud latency. It predates a later consumer-stall fix; no post-fix capture is documented. The microgrid result is simulated, not a realized market return.
+The microgrid result is from a seeded simulation, not a realized market return. The gateway dashboard displays stored/replayed data; the public deployment is not a continuously running exchange capture.
 
-## Work I take on
+## Full-stack engineering
 
-- Market-data capture, order-book tooling, and low-latency C++ components.
-- Quantitative prototypes, simulation, and strategy or allocation evaluation.
-- Trading dashboards and the APIs and data services behind them.
+| Project | Work | Stack | Live |
+| --- | --- | --- | --- |
+| [Academic Hub](https://github.com/berryO307/pern-stack-preparation) | University management platform with role-based workflows, authentication, and live analytics. | TypeScript, React, Express, PostgreSQL on Neon | [Open application](https://ums-pern-stack.vercel.app) |
 
-## Areas
+I have also deployed Linux code to an Oracle Cloud instance. The hosting cost was too high for that setup, so running my own server is planned work and is not live yet.
 
-Market microstructure · derivatives and volatility · execution · dynamic programming · regime-switching models · full-stack product engineering
+## Working areas
+
+- **Markets and research:** market microstructure, derivatives, volatility, execution, dynamic programming, regime-switching models.
+- **Systems and product:** C++20, market-data pipelines, TypeScript, React, Node.js, APIs, PostgreSQL, Linux deployment.
