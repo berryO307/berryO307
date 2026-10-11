@@ -1,14 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=6">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=6">
-  <img alt="Barinder Singh — market systems, quantitative research, and software engineering" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=6">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=5">
+  <img alt="Barinder Singh — quant development, market systems, research, and full-stack engineering" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=5">
 </picture>
 
 I work across financial markets and software: building the systems that capture and present market data, and using quantitative methods to study trading and allocation problems. I also build full-stack products, from database and API design through the interface and deployment.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg?v=2">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg">
   <img alt="Animated overview of Barinder's quant and market systems skills alongside software engineering skills" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg">
 </picture>
 
