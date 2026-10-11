@@ -1,44 +1,32 @@
-# Barinder Singh
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=6">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=6">
+  <img alt="Barinder Singh — market systems, quantitative research, and software engineering" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=6">
+</picture>
 
-`QUANT / SYSTEMS / SOFTWARE`
+I work across financial markets and software: building the systems that capture and present market data, and using quantitative methods to study trading and allocation problems. I also build full-stack products, from database and API design through the interface and deployment.
 
-Building market-data systems and quantitative software.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg?v=2">
+  <img alt="Animated overview of Barinder's quant and market systems skills alongside software engineering skills" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg">
+</picture>
 
-**C++20 · Quant research · Full-stack engineering**
+## Quant & market systems
 
-[GitHub](https://github.com/berryO307) · [Website](https://www.barinder.dev/) · [Contact](https://www.barinder.dev/#contact)
+| Project | Work | Stack | Live |
+| --- | --- | --- | --- |
+| [L2 Market Data Gateway](https://github.com/berryO307/quant-portfolio/tree/main/project-2-L2-market-data-gateway) | Hyperliquid L2 capture and order-book reconstruction; lock-free SPSC queue, mmap data path, pinned threads, per-stage `rdtscp` timing, and a jitter canary. | C++20, Railway, Neon, Next.js | [Open dashboard](https://l2-orderbook-gateway.vercel.app/) |
+| [Microgrid MDP](https://github.com/berryO307/quant-portfolio/tree/main/project-1-microgrid-mdp) | Bellman backward induction for battery dispatch across changing market regimes. **+96.17 simulated alpha lift** over a random baseline. | Python, NumPy, Pandas | — |
 
-<a href="https://www.barinder.dev/"><img src="./assets/prism-hero.jpg" alt="A glass prism splitting a white beam into a spectrum against black" width="760"></a>
+The microgrid result is from a seeded simulation, not a realized market return. The gateway dashboard displays stored/replayed data; the public deployment is not a continuously running exchange capture.
 
-## Selected work
+## Full-stack engineering
 
-### 01 — L2 Market Data Gateway
+| Project | Work | Stack | Live |
+| --- | --- | --- | --- |
+| [Academic Hub](https://github.com/berryO307/pern-stack-preparation) | University management platform with role-based workflows, authentication, and live analytics. | TypeScript, React, Express, PostgreSQL on Neon | [Open application](https://ums-pern-stack.vercel.app) |
+| [LLD Practice Platform](https://github.com/berryO307/LLD-practice-platform) | Submit a design and get rubric-based feedback on responsibility clarity, SOLID, coupling, cohesion, and extensibility. | React 19, Express 5, PostgreSQL, Neon/Drizzle, Gemini | [Try the platform](https://solidly.vercel.app/) |
+| Personal Website | Custom-designed personal site; source repository remains private. | Private source | [Visit website](https://www.barinder.dev/) |
 
-Hyperliquid Level 2 capture and order-book reconstruction, built around a lock-free SPSC queue and memory-mapped data path. Includes per-stage timing and latency-tail analysis.
-
-`C++20` · `Next.js` · `Railway` · `Neon`
-
-**[Open dashboard](https://l2-orderbook-gateway.vercel.app/)** · [Source](https://github.com/berryO307/quant-portfolio/tree/main/project-2-L2-market-data-gateway)
-
-The dashboard displays stored or replayed data; it is not a continuously running exchange capture.
-
-### 02 — Academic Hub
-
-A deployed university management platform with role-based workflows, authentication, and analytics, built as a complete full-stack product.
-
-`TypeScript` · `React` · `Express` · `PostgreSQL` · `Neon`
-
-**[Open application](https://ums-pern-stack.vercel.app)** · [Source](https://github.com/berryO307/academic-hub-ums)
-
-### 03 — Microgrid MDP
-
-A Python Markov decision process for battery dispatch across changing market regimes, solved with Bellman backward induction and simulation.
-
-**+96.17 simulated alpha lift over a random baseline.** The result is from a seeded simulation, not a realized market return.
-
-[View project and source](https://github.com/berryO307/quant-portfolio/tree/main/project-1-microgrid-mdp)
-
-## More work
-
-- **LLD Practice Platform** — submit a software design and receive rubric-based feedback on responsibility clarity, SOLID, coupling, cohesion, and extensibility. [Try the platform](https://solidly.vercel.app/)
-- **Personal website** — custom-designed portfolio; source repository is private. [Visit website](https://www.barinder.dev/)
+I have also deployed Linux code to an Oracle Cloud instance. The hosting cost was too high for that setup, so running my own server is planned work and is not live yet.
