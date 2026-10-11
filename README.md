@@ -6,6 +6,12 @@
 
 I work across financial markets and software: building the systems that capture and present market data, and using quantitative methods to study trading and allocation problems. I also build full-stack products, from database and API design through the interface and deployment.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg">
+  <img alt="Animated overview of Barinder's quant and market systems skills alongside software engineering skills" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg">
+</picture>
+
 ## Quant & market systems
 
 | Project | Work | Stack | Live |
@@ -24,8 +30,3 @@ The microgrid result is from a seeded simulation, not a realized market return. 
 | Personal Website | Custom-designed personal site; source repository remains private. | Private source | [Visit website](https://www.barinder.dev/) |
 
 I have also deployed Linux code to an Oracle Cloud instance. The hosting cost was too high for that setup, so running my own server is planned work and is not live yet.
-
-## Working areas
-
-- **Markets and research:** market microstructure, derivatives, volatility, execution, dynamic programming, regime-switching models.
-- **Systems and product:** C++20, market-data pipelines, TypeScript, React, Node.js, APIs, PostgreSQL, Linux deployment.
