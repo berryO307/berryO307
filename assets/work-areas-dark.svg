@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" role="img" aria-label="Animated overview of quant and market systems skills alongside software engineering skills">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" role="img" aria-label="Animated overview of market research and software development skills">
   <rect x="1" y="1" width="998" height="308" rx="14" fill="#0d1117" stroke="#30363d"/>
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
     <rect x="18" y="18" width="472" height="226" rx="12" fill="#161b22" stroke="#30363d"/>
     <rect x="510" y="18" width="472" height="226" rx="12" fill="#161b22" stroke="#30363d"/>
-    <rect x="38" y="38" width="3" height="26" rx="1.5" fill="#3fb950"/>
-    <text x="52" y="57" fill="#f0f6fc" font-size="17" font-weight="700">Quant &amp; market systems</text>
     <text x="38" y="82" fill="#8b949e" font-size="12">Understand the market question and model it</text>
-    <rect x="530" y="38" width="3" height="26" rx="1.5" fill="#58a6ff"/>
-    <text x="544" y="57" fill="#f0f6fc" font-size="17" font-weight="700">Software engineering</text>
     <text x="530" y="82" fill="#8b949e" font-size="12">Build the systems that make the work usable</text>
     <g fill="#0d1117" stroke="#30363d">
       <rect x="36" y="101" width="98" height="67" rx="8"/><rect x="146" y="101" width="98" height="67" rx="8"/>
