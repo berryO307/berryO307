@@ -1,74 +1,29 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=4">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=4">
-  <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=4">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
+  <img alt="Barinder Singh — quant development, market systems, and research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg">
 </picture>
 
-EE by degree, markets by choice. Derivatives, volatility, execution — I take risk deliberately, learn whatever a problem demands, and get to a working build fast. Theory only counts once it runs on live data.
+I help turn financial-market and allocation questions into working software: exchange data capture, quantitative research prototypes, and dashboards. My work spans **quant development and quantitative research**, so I can connect the data pipeline to the question the model is meant to answer.
 
-## Markets and quant
+[Live L2 dashboard](https://l2-orderbook-gateway.vercel.app/) · [Academic Hub](https://ums-pern-stack.vercel.app) · [X](https://x.com/stillwaters_0x) · [Buy Me a Coffee](https://buymeacoffee.com/berry07)
 
-Every project here starts from a trading or allocation question, not from a framework I wanted to try.
+## Selected work
 
-### C++20 Bybit market-data gateway
+| Project | Focus | Stack | Result |
+| --- | --- | --- | --- |
+| [L2 Market Data Gateway](https://github.com/berryO307/quant-portfolio/tree/main/project-2-L2-market-data-gateway) | Exchange order-book capture, measured C++ pipeline, hosted dashboard. | C++20, Next.js, Railway, Neon | **28.5 µs p99 queue transit** across 383 samples in a short native desktop capture. |
+| [Microgrid MDP](https://github.com/berryO307/quant-portfolio/tree/main/project-1-microgrid-mdp) | Battery dispatch optimization under changing market regimes and transaction costs. | Python, NumPy, Pandas | **+96.17 alpha lift** over a random policy in the documented seeded simulation. |
+| [Academic Hub](https://github.com/berryO307/pern-stack-preparation) | University management platform with role-based workflows and live analytics. | TypeScript, React, Express, PostgreSQL | [Open application](https://ums-pern-stack.vercel.app) |
 
-A lock-free, low-latency market-data pipeline running against live exchange data.
+The gateway figure is a desktop measurement, not cloud latency. It predates a later consumer-stall fix; no post-fix capture is documented. The microgrid result is simulated, not a realized market return.
 
-| | |
-|---|---|
-| Queueing | Lock-free SPSC ring buffer |
-| Data path | mmap zero-copy |
-| Timing | `rdtscp` cycle-accurate instrumentation |
-| Measured latency | 7.4µs p99 queue transit across 42K live samples |
-| Feed | Bybit BTC perpetual futures, V5 API |
-| Threading | Pinned threads |
-| Analysis | Python and Plotly |
+## Work I take on
 
-Includes order book reconstruction. Taken from skeleton to a documented p99 on live data over a multi-week debugging cycle: V5 migration, the SPSC buffer, the mmap writer, then the measurement layer.
+- Market-data capture, order-book tooling, and low-latency C++ components.
+- Quantitative prototypes, simulation, and strategy or allocation evaluation.
+- Trading dashboards and the APIs and data services behind them.
 
-### Python MDP battery-dispatch optimizer
+## Areas
 
-Dynamic programming applied to energy arbitrage under a regime-switching market.
-
-| | |
-|---|---|
-| Method | Bellman backward induction |
-| Market model | Regime-switching |
-| Result | 96% improvement over random baseline |
-| Alpha | +31.71 against -64.46 random |
-| Documentation | Whitepaper-style README plus companion notes on dynamics, environment, simulator, and solver |
-
-### Interests
-
-Exotic Derivatives | Options | Futures | Algorithmic Trading
-
-## Engineering
-
-### Academic Hub
-
-A production university management platform: departments, subjects, classes, users, and live analytics.
-
-| | |
-|---|---|
-| Stack | PostgreSQL on Neon, Express, React, Node |
-| Interface | shadcn/ui with Refine |
-| Auth | Better Auth, Google and GitHub |
-| Infrastructure | Arcjet rate limiting, Cloudinary, Site24x7 RUM |
-| Deployment | Vercel frontend, Railway backend |
-
-[Source](https://github.com/berryO307/pern-stack-preparation)
-
-## What I work with
-
-| Systems | C++20, lock-free structures, zero-copy I/O, cycle-level timing, POSIX syscalls |
-|---|---|
-| Quant | Market microstructure, MDPs, regime-switching models, options |
-| Backend | Node, Express, REST APIs, authentication, PostgreSQL |
-| Frontend | React, TypeScript |
-| Tooling | Docker, Git, Linux |
-
-Currently sharpening SQL, low-level design, and data structures for the engineering track.
-
-## Elsewhere
-
-Leaving GitHub from here — [Academic Hub, live](https://ums-pern-stack.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/berry07)
+Market microstructure · derivatives and volatility · execution · dynamic programming · regime-switching models · full-stack product engineering
