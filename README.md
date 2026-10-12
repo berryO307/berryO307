@@ -1,32 +1,74 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=6">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=6">
-  <img alt="Barinder Singh — market systems, quantitative research, and software engineering" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=6">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=4">
+  <img alt="Barinder Singh — low-latency market data systems and quant research" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/header-light.svg?v=4">
 </picture>
 
-I work across financial markets and software: building the systems that capture and present market data, and using quantitative methods to study trading and allocation problems. I also build full-stack products, from database and API design through the interface and deployment.
+EE by degree, markets by choice. Derivatives, volatility, execution — I take risk deliberately, learn whatever a problem demands, and get to a working build fast. Theory only counts once it runs on live data.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg?v=2">
-  <img alt="Animated overview of Barinder's quant and market systems skills alongside software engineering skills" src="https://raw.githubusercontent.com/berryO307/berryO307/main/assets/work-areas-light.svg">
-</picture>
+## Markets and quant
 
-## Quant & market systems
+Every project here starts from a trading or allocation question, not from a framework I wanted to try.
 
-| Project | Work | Stack | Live |
-| --- | --- | --- | --- |
-| [L2 Market Data Gateway](https://github.com/berryO307/quant-portfolio/tree/main/project-2-L2-market-data-gateway) | Hyperliquid L2 capture and order-book reconstruction; lock-free SPSC queue, mmap data path, pinned threads, per-stage `rdtscp` timing, and a jitter canary. | C++20, Railway, Neon, Next.js | [Open dashboard](https://l2-orderbook-gateway.vercel.app/) |
-| [Microgrid MDP](https://github.com/berryO307/quant-portfolio/tree/main/project-1-microgrid-mdp) | Bellman backward induction for battery dispatch across changing market regimes. **+96.17 simulated alpha lift** over a random baseline. | Python, NumPy, Pandas | — |
+### C++20 Bybit market-data gateway
 
-The microgrid result is from a seeded simulation, not a realized market return. The gateway dashboard displays stored/replayed data; the public deployment is not a continuously running exchange capture.
+A lock-free, low-latency market-data pipeline running against live exchange data.
 
-## Full-stack engineering
+| | |
+|---|---|
+| Queueing | Lock-free SPSC ring buffer |
+| Data path | mmap zero-copy |
+| Timing | `rdtscp` cycle-accurate instrumentation |
+| Measured latency | 7.4µs p99 queue transit across 42K live samples |
+| Feed | Bybit BTC perpetual futures, V5 API |
+| Threading | Pinned threads |
+| Analysis | Python and Plotly |
 
-| Project | Work | Stack | Live |
-| --- | --- | --- | --- |
-| [Academic Hub](https://github.com/berryO307/pern-stack-preparation) | University management platform with role-based workflows, authentication, and live analytics. | TypeScript, React, Express, PostgreSQL on Neon | [Open application](https://ums-pern-stack.vercel.app) |
-| [LLD Practice Platform](https://github.com/berryO307/LLD-practice-platform) | Submit a design and get rubric-based feedback on responsibility clarity, SOLID, coupling, cohesion, and extensibility. | React 19, Express 5, PostgreSQL, Neon/Drizzle, Gemini | [Try the platform](https://solidly.vercel.app/) |
-| Personal Website | Custom-designed personal site; source repository remains private. | Private source | [Visit website](https://www.barinder.dev/) |
+Includes order book reconstruction. Taken from skeleton to a documented p99 on live data over a multi-week debugging cycle: V5 migration, the SPSC buffer, the mmap writer, then the measurement layer.
 
-I have also deployed Linux code to an Oracle Cloud instance. The hosting cost was too high for that setup, so running my own server is planned work and is not live yet.
+### Python MDP battery-dispatch optimizer
+
+Dynamic programming applied to energy arbitrage under a regime-switching market.
+
+| | |
+|---|---|
+| Method | Bellman backward induction |
+| Market model | Regime-switching |
+| Result | 96% improvement over random baseline |
+| Alpha | +31.71 against -64.46 random |
+| Documentation | Whitepaper-style README plus companion notes on dynamics, environment, simulator, and solver |
+
+### Interests
+
+Exotic Derivatives | Options | Futures | Algorithmic Trading
+
+## Engineering
+
+### Academic Hub
+
+A production university management platform: departments, subjects, classes, users, and live analytics.
+
+| | |
+|---|---|
+| Stack | PostgreSQL on Neon, Express, React, Node |
+| Interface | shadcn/ui with Refine |
+| Auth | Better Auth, Google and GitHub |
+| Infrastructure | Arcjet rate limiting, Cloudinary, Site24x7 RUM |
+| Deployment | Vercel frontend, Railway backend |
+
+[Source](https://github.com/berryO307/pern-stack-preparation)
+
+## What I work with
+
+| Systems | C++20, lock-free structures, zero-copy I/O, cycle-level timing, POSIX syscalls |
+|---|---|
+| Quant | Market microstructure, MDPs, regime-switching models, options |
+| Backend | Node, Express, REST APIs, authentication, PostgreSQL |
+| Frontend | React, TypeScript |
+| Tooling | Docker, Git, Linux |
+
+Currently sharpening SQL, low-level design, and data structures for the engineering track.
+
+## Elsewhere
+
+Leaving GitHub from here — [Academic Hub, live](https://ums-pern-stack.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/berry07)
